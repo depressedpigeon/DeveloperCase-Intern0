@@ -1,0 +1,99 @@
+:root {
+  --darkBg: #141b24;
+  --yellowText: #cdad23;
+  --buttonBg: #ffff97;
+  --white: #ffffff;
+  --grey: #6a6c71;
+
+}
+
+@font-face {
+  font-family: 'Pixelar';
+  src: url('../src/fonts/Pixelar-Regular-W01-Regular.ttf');
+}
+
+html,
+body {
+  background-color: var(--darkBg);
+  font-family: 'Pixelar';
+  font-size: 16px;
+  color: var(--white);
+  margin: 0;
+  padding: 0 2vw;
+
+}
+
+h1, h2, p {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  color: var(--yellowText);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+.p-header {
+  font-size: 1.3rem;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+}
+
+.div-notificationBox {
+  padding: 1.5rem 0;
+  border-bottom: 0.1rem solid var(--grey);
+}
+
+.div-picture,
+.div-text {
+  display: inline-block;
+  height: 50px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  padding-right: 1rem;
+}
+
+
+h2 {
+  font-size: 1rem;
+}
+
+p.p-pack-name, .p-pack-price {
+  color: var(--grey);
+  margin: auto;
+}
+
+.p-pack-name {
+  font-weight: bold;
+}
+
+button {
+  font-family: 'Pixelar';
+  color: var(--yellowText);
+  text-transform: uppercase;
+  padding: 0 0.3rem;
+  background-color: var(--buttonBg);
+  border: 0.15rem solid var(--yellowText);
+  margin: 1rem 0;
+}
